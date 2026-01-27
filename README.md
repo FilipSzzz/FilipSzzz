@@ -27,3 +27,4 @@ I am also expanding my knowledge of cybersecurity through dedicated training and
 <img align="left" alt="GitHub" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
 <img align="left" alt="Bash" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" />
 <br />
+[![github-trophy](https://github-profile-trophy.vercel.app/?username=FilipSzzz&theme=darkhub)](https://github.com/ryo-ma/github-profile-trophy)
