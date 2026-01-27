@@ -1,10 +1,8 @@
 <p align="center">
-  <img src="nazwa_pliku.png" width="100%" style="max-width: 100%; display: block; margin: 0 auto;">
+  <img src="Background.jpg" width="100%" style="max-width: 100%; display: block; margin: 0 auto;">
 </p>
 
-# Filip Szlagowski
-<p align="left">
-  </p>
+
 # Filip Szlagowski
 [![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black)](https://leetcode.com/u/N0Hb7GJml5/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/filip-szlagowski-41a5b2319/)
