@@ -9,7 +9,7 @@ I spend most of my time coding in Java and Python, constantly working to improve
 I am also expanding my knowledge of cybersecurity through dedicated training and hands-on practice with CTF's challenges.
 
 ### 🛠️ Tech Stack & Tools
-- **Backend:** Java (![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white), Maven), ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+- **Backend:** Java (Spring Boot, Maven), Python
 - **Security:** Burp Suite, OWASP Top 10, CTF Challenges
 - **Infrastructure:** MacOs (Daily driver), Linux, Windows, Git, Docker (Learning)
 - **Frontend:** HTML5, CSS3, Basic JavaScript
