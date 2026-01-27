@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Background.jpeg" alt="Background" width="100%">
+  <img src="Background.jpg" alt="Background" width="100%">
 </p>
 # Filip Szlagowski
 [![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black)](https://leetcode.com/u/N0Hb7GJml5/)
