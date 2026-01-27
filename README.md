@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="Background.jpeg" alt="Background" width="100%">
+</p>
 # Filip Szlagowski
 [![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black)](https://leetcode.com/u/N0Hb7GJml5/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/filip-szlagowski-41a5b2319/)
