@@ -9,7 +9,7 @@ I spend most of my time coding in Java and Python, constantly working to improve
 I am also expanding my knowledge of cybersecurity through dedicated training and hands-on practice with CTF's challenges.
 
 ### 🛠️ Tech Stack & Tools
-- **Backend:** Java (Spring Boot, Maven), Python
+- **Backend:** Java (![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white), Maven), ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 - **Security:** Burp Suite, OWASP Top 10, CTF Challenges
 - **Infrastructure:** MacOs (Daily driver), Linux, Windows, Git, Docker (Learning)
 - **Frontend:** HTML5, CSS3, Basic JavaScript
@@ -17,7 +17,7 @@ I am also expanding my knowledge of cybersecurity through dedicated training and
 ### 🧰 Languages and Tools
 
 <img align="left" alt="Java" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"/>
-<img align="left" alt="Spring" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" />
+<img align="left" alt="Spring Boot" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" />
 <img align="left" alt="Python" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" />
 <img align="left" alt="Git" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
 <img align="left" alt="MySQL" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
