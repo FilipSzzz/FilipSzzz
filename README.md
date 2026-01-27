@@ -2,6 +2,18 @@
 
 **`Computer Science Student | Backend Developer |  CyberSecurity Enthusiast`**
 
+I am a Computer Science student who believes in learning by doing. 
+I spend most of my time coding in Java and Python, constantly working to improve my skills in Spring Boot, Django, and Data Structures and Algorithms.
+
+I am also expanding my knowledge of cybersecurity through dedicated training and hands-on practice with CTF's challenges.
+---
+
+### 🛠️ Tech Stack & Tools
+- **Backend:** Java (Spring Boot, Maven), Python
+- **Security:** Burp Suite, OWASP Top 10, CTF Challenges
+- **Infrastructure:** MacOs (Daily driver), Linux, Windows, Git, Docker (Learning)
+- **Frontend:** HTML5, CSS3, Basic JavaScript
+  
 ### 🧰 Languages and Tools
 
 <img align="left" alt="Java" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"/>
