@@ -1,5 +1,5 @@
 # Filip Szlagowski
-
+[![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black)](https://leetcode.com/u/N0Hb7GJml5/)
 **`Computer Science Student | Backend Developer |  CyberSecurity Enthusiast`**
 
 I am a Computer Science student who believes in learning by doing. 
