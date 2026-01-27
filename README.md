@@ -1,6 +1,6 @@
 # Filip Szlagowski
 
-**`Computer Science Student`**
+**`Computer Science Student | Backend Developer |  CyberSecurity Enthusiast`**
 
 ### 🧰 Languages and Tools
 
