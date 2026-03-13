@@ -11,7 +11,7 @@ I am also expanding my knowledge of cybersecurity through dedicated training and
 ### 🛠️ Tech Stack & Tools
 - **Backend:** Java (Spring Boot, Maven), Python
 - **Security:** Burp Suite, OWASP Top 10, CTF Challenges
-- **Infrastructure:** MacOs (Daily driver), Linux, Windows, Git, Docker (Learning)
+- **Infrastructure:** MacOs (Daily driver), Linux, Windows, Git, Docker
 - **Frontend:** HTML5, CSS3, Basic JavaScript
   
 ### 🧰 Languages and Tools
