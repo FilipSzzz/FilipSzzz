@@ -161,12 +161,15 @@ def arrow(x1: float, y1: float, x2: float, y2: float, col: str, dash: bool = Fal
 
 
 def pipeline() -> str:
-    W, H = 880, 300
+    W, H = 880, 344
     line = "#3A4653"
-    yc = 132
+    yc = 176
     body = [
         t(36, 44, "llm-security-gateway", 15, C["fg"], "b"),
         t(W - 36, 44, "in development · FastAPI · Docker", 12, C["muted"], anchor="end"),
+        t(36, 70, "LLM apps trust whatever users type, and whatever the model answers. This proxy sits in between.",
+          13, C["dim"]),
+        t(36, 92, "open source · one `docker compose up` · early stage, feedback welcome", 12, C["muted"]),
         f'<rect x="36" y="{yc-28}" width="112" height="56" fill="none" stroke="{line}"/>',
         t(92, yc + 4, "your app", 13, C["fg"], anchor="middle"),
         f'<rect x="186" y="{yc-56}" width="508" height="112" fill="#0E141B" stroke="{C["line"]}"/>',
@@ -187,9 +190,9 @@ def pipeline() -> str:
         if i < 2:
             body.append(arrow(x + 148, yc + 4, x + 162, yc + 4, line))
         cx = x + 74
-        body.append(arrow(cx, yc + 32, cx, 212, col, dash=True))
-        body.append(t(cx, 230, f"{code} {what}", 12, col, anchor="middle"))
-    yr = 270
+        body.append(arrow(cx, yc + 32, cx, yc + 80, col, dash=True))
+        body.append(t(cx, yc + 98, f"{code} {what}", 12, col, anchor="middle"))
+    yr = yc + 138
     body += [f'<path d="M788 {yc+28} V{yr} H92 V{yc+32}" fill="none" stroke="{line}" stroke-width="1.3"/>',
              f'<path d="M88 {yc+37} L92 {yc+31} L96 {yc+37}" fill="none" stroke="{line}" stroke-width="1.3"/>',
              f'<rect x="250" y="{yr-9}" width="380" height="18" fill="{C["bg"]}"/>',
@@ -199,7 +202,8 @@ def pipeline() -> str:
            "@keyframes pkt { 0% { transform: translateX(0); opacity: 0 } 6% { opacity: 1 } "
            "90% { transform: translateX(584px); opacity: 1 } 100% { transform: translateX(584px); opacity: 0 } }")
     return svg(W, H, "How LLM Security Gateway works",
-               "Requests from your app pass through the gateway before reaching the LLM API: 01 rate limit "
+               "LLM apps trust whatever users type, and whatever the model answers; this open-source proxy "
+               "sits in between. Requests from your app pass through the gateway before reaching the LLM API: 01 rate limit "
                "(429 on abuse), 02 prompt-injection check (403 BLOCKED), 03 PII masking (e-mail becomes [EMAIL]). "
                "Responses are scanned for leaked PII on the way back.",
                "\n".join(body), css)

@@ -4,10 +4,8 @@
 
 ### Now building
 <a href="https://github.com/FilipSzzz/LLM_Security_Gateway">
-  <img src="assets/gateway.svg" width="100%" alt="How LLM Security Gateway works: requests pass rate limiting, a prompt-injection check and PII masking before reaching the LLM API; responses are scanned for leaked PII on the way back.">
+  <img src="assets/gateway.svg?v=2" width="100%" alt="LLM Security Gateway: LLM apps trust whatever users type, and whatever the model answers; this open-source proxy sits in between. Requests pass rate limiting, a prompt-injection check and PII masking before reaching the LLM API; responses are scanned for leaked PII on the way back.">
 </a>
-
-An open-source FastAPI proxy that sits between an application and an LLM API. It rate-limits clients, rejects prompt-injection attempts and masks personal data in both directions, and runs locally with one `docker compose up`. Work in progress.
 
 ### Experience
 
