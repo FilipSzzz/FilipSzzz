@@ -5,9 +5,9 @@
 Backend developer from Poland, focused on Python services and application security. Part-time CS engineering student at PJATK in Gdańsk.
 
 ### Now building
-**[LLM Security Gateway](https://github.com/FilipSzzz/LLM_Security_Gateway)** 
-
-<img src="assets/gateway.svg" width="100%" alt="How LLM Security Gateway works: requests pass rate limiting, a prompt-injection check and PII masking before reaching the LLM API; responses are scanned for leaked PII on the way back.">
+<a href="https://github.com/FilipSzzz/LLM_Security_Gateway">
+  <img src="assets/gateway.svg" width="100%" alt="How LLM Security Gateway works: requests pass rate limiting, a prompt-injection check and PII masking before reaching the LLM API; responses are scanned for leaked PII on the way back.">
+</a>
 
 An open-source FastAPI proxy that sits between an application and an LLM API. It rate-limits clients, rejects prompt-injection attempts and masks personal data in both directions, and runs locally with one `docker compose up`. Work in progress.
 
