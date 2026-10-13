@@ -82,7 +82,7 @@ def t(x: float, y: float, s: str, size: float = 12.5, fill: str = C["fg"], cls: 
 
 # ------------------------------------------------------------------ hero
 def hero() -> str:
-    W, H, X = 880, 346, 36
+    W, H, X = 880, 372, 36
     period = 11.0
     cw = 12.5 * CH  # 7.5 px per column in the log
 
@@ -99,12 +99,13 @@ def hero() -> str:
         t(sx, 46, status, 12, C["green"]),
         t(X - 3, 118, "Filip", 66, C["fg"], "b", extra=' letter-spacing="-2"'),
         f'<rect x="{X + 5*66*CH - 10 + 10:.1f}" y="72" width="24" height="52" fill="{C["blue"]}" class="blink"/>',
-        t(X, 158, "Python backend developer. FastAPI, async services, queues, Postgres.", 15, C["fg"]),
-        t(X, 182, "Now building a gateway that stops prompt injection before it reaches the model.", 15, C["muted"]),
+        t(X, 158, "Backend developer from Poland · Python services & application security", 15, C["fg"], "b"),
+        t(X, 182, "FastAPI, async services, queues, Postgres. CS engineering student at PJATK, Gdańsk.", 13.5, C["dim"]),
+        t(X, 206, "Now building a gateway that stops prompt injection before it reaches the model.", 13.5, C["muted"]),
     ]
     label = "tail -f gateway.log"
-    body += [t(X, 222, label, 11.5, C["muted"]),
-             f'<path d="M{X + len(label)*11.5*CH + 12:.1f} 218 H{W-X}" stroke="{C["line"]}"/>']
+    body += [t(X, 248, label, 11.5, C["muted"]),
+             f'<path d="M{X + len(label)*11.5*CH + 12:.1f} 244 H{W-X}" stroke="{C["line"]}"/>']
 
     cols = (0, 10, 25, 30, 39, 57)
     rows = [
@@ -113,7 +114,7 @@ def hero() -> str:
         ("09:14:11", "429", "LIMITED", C["violet"], "rate_limit", "40 req / 10 s from 10.0.4.17"),
         ("09:14:15", "200", "PASSED", C["green"], "-", '"Summarise this changelog in 3 bullets"'),
     ]
-    y0 = 252
+    y0 = 278
     for i, (tm, code, verdict, col, reason, payload) in enumerate(rows):
         y = y0 + i * 24
         start = 0.6 + i * 0.9
@@ -138,8 +139,9 @@ def hero() -> str:
         body.append(f'<g class="{cls}">' + "".join(g) + "</g>")
 
     return svg(W, H, "Filip — Python backend developer",
-               "Filip, Python backend developer (FastAPI, async services, queues, Postgres), open to work as a "
-               "junior Python developer, building a gateway that stops prompt injection. A log shows the gateway "
+               "Filip, backend developer from Poland focused on Python services and application security "
+               "(FastAPI, async services, queues, Postgres), CS engineering student at PJATK in Gdańsk, open to "
+               "work as a junior Python developer, building a gateway that stops prompt injection. A log shows the gateway "
                "blocking a prompt-injection request, masking an e-mail address, rate-limiting a client and "
                "passing a normal request.",
                "\n".join(body), "\n".join(css))

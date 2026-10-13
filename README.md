@@ -1,8 +1,6 @@
 <a href="https://github.com/FilipSzzz/LLM_Security_Gateway">
-  <img src="assets/hero.svg" width="100%" alt="Filip, Python backend developer (FastAPI, async services, queues, Postgres), open to work as a junior Python developer. A gateway log shows a prompt-injection request blocked, an e-mail address masked, a client rate-limited and a normal request passed.">
+  <img src="assets/hero.svg?v=2" width="100%" alt="Filip, backend developer from Poland focused on Python services and application security (FastAPI, async services, queues, Postgres), CS engineering student at PJATK in Gdańsk, open to work as a junior Python developer. A gateway log shows a prompt-injection request blocked, an e-mail address masked, a client rate-limited and a normal request passed.">
 </a>
-
-Backend developer from Poland, focused on Python services and application security. Part-time CS engineering student at PJATK in Gdańsk.
 
 ### Now building
 <a href="https://github.com/FilipSzzz/LLM_Security_Gateway">
