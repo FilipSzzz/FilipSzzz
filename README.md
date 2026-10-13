@@ -13,8 +13,7 @@ An open-source FastAPI proxy that sits between an application and an LLM API. It
 
 ### Experience
 
-**Python Developer Intern · Innowise** · Feb – Aug 2026
-Backend microservices in FastAPI communicating over RabbitMQ, with PostgreSQL, Redis, Docker and GitHub Actions CI/CD; hands-on system design sessions. <sub>Commercial code is under NDA.</sub>
+<img src="assets/experience.svg" width="100%" alt="Python Developer Intern at Innowise, Feb to Aug 2026. Built backend microservices in FastAPI communicating over RabbitMQ, with PostgreSQL, Redis, Docker and GitHub Actions CI/CD; hands-on system design sessions. Commercial code is under NDA.">
 
 ### Stack
 

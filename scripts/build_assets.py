@@ -30,7 +30,7 @@ C = {
 CH = 0.6  # Plex Mono advance width, in em
 
 GLYPHS = ("".join(chr(c) for c in range(0x20, 0x7F))
-          + "·—…ąćęłńóśźżĄĆĘŁŃÓŚŹŻ")
+          + "·—–…ąćęłńóśźżĄĆĘŁŃÓŚŹŻ")
 
 
 def _font_b64(weight: int) -> str:
@@ -244,11 +244,36 @@ def stack() -> str:
     return svg(W, H, "Tech stack", f"Tech stack: {flat}.", "\n".join(body))
 
 
+# ------------------------------------------------------------------ experience
+def experience() -> str:
+    W, H, X = 880, 262, 36
+    body = [
+        t(X, 44, "Python Developer Intern", 15, C["fg"], "b"),
+        t(W - X, 44, "Feb – Aug 2026", 12, C["muted"], anchor="end"),
+        t(X, 68, "Innowise", 13, C["blue"]),
+        f'<path d="M{X} 88 H{W - X}" stroke="{C["line"]}"/>',
+    ]
+    rows = [("built", "backend microservices in FastAPI, talking over RabbitMQ"),
+            ("data", "PostgreSQL · Redis"),
+            ("shipped", "Docker · GitHub Actions CI/CD"),
+            ("learned", "hands-on system design sessions")]
+    for i, (key, val) in enumerate(rows):
+        y = 120 + i * 26
+        body += [t(X, y, key, 12.5, C["muted"]), t(X + 120, y, val, 13.5, C["fg"])]
+    body.append(t(X, 236, "commercial code is under NDA", 11.5, C["muted"]))
+    return svg(W, H, "Experience",
+               "Python Developer Intern at Innowise, Feb to Aug 2026. Built backend microservices in FastAPI "
+               "communicating over RabbitMQ, with PostgreSQL, Redis, Docker and GitHub Actions CI/CD; hands-on "
+               "system design sessions. Commercial code is under NDA.",
+               "\n".join(body))
+
+
 def main() -> None:
     ASSETS.mkdir(exist_ok=True)
     for old in ASSETS.glob("*.svg"):
         old.unlink()
-    for name, content in {"hero.svg": hero(), "gateway.svg": pipeline(), "stack.svg": stack()}.items():
+    for name, content in {"hero.svg": hero(), "gateway.svg": pipeline(), "stack.svg": stack(),
+                          "experience.svg": experience()}.items():
         (ASSETS / name).write_text(content, encoding="utf-8")
         print(f"wrote {name} ({len(content.encode())//1024} KB)")
 
