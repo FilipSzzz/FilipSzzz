@@ -1,4 +1,4 @@
-<a href="https://github.com/FilipSzzz/llm-security-gateway">
+<a href="https://github.com/FilipSzzz/LLM_Security_Gateway">
   <img src="assets/hero.svg" width="100%" alt="Filip, Python backend developer (FastAPI, async services, queues, Postgres), open to work as a junior Python developer. A gateway log shows a prompt-injection request blocked, an e-mail address masked, a client rate-limited and a normal request passed.">
 </a>
 
