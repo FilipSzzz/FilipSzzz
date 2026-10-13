@@ -249,7 +249,7 @@ def experience() -> str:
     W, H, X = 880, 262, 36
     body = [
         t(X, 44, "Python Developer Intern", 15, C["fg"], "b"),
-        t(W - X, 44, "Feb – Aug 2026", 12, C["muted"], anchor="end"),
+        t(W - X, 44, "Feb 2026 – Aug 2026", 12, C["muted"], anchor="end"),
         t(X, 68, "Innowise", 13, C["blue"]),
         f'<path d="M{X} 88 H{W - X}" stroke="{C["line"]}"/>',
     ]
@@ -262,7 +262,7 @@ def experience() -> str:
         body += [t(X, y, key, 12.5, C["muted"]), t(X + 120, y, val, 13.5, C["fg"])]
     body.append(t(X, 236, "commercial code is under NDA", 11.5, C["muted"]))
     return svg(W, H, "Experience",
-               "Python Developer Intern at Innowise, Feb to Aug 2026. Built backend microservices in FastAPI "
+               "Python Developer Intern at Innowise, Feb 2026 to Aug 2026. Built backend microservices in FastAPI "
                "communicating over RabbitMQ, with PostgreSQL, Redis, Docker and GitHub Actions CI/CD; hands-on "
                "system design sessions. Commercial code is under NDA.",
                "\n".join(body))
